@@ -20,7 +20,7 @@ struct CustomBottom: View {
             minWidth: 0,
             maxWidth: .infinity,
             minHeight: 0,
-            maxHeight: 50,
+            maxHeight: 60,
             alignment: .center
         )
     

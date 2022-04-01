@@ -36,7 +36,10 @@ struct SignUp: View {
             
             Spacer()
             VStack(spacing: 25){
-                CustomBottom(text: "Register")
+                NavigationLink(destination: Welcome().navigationBarHidden(true)){
+                    CustomBottom(text: "Register")
+                        
+                }
                 
                 LabelledDivider(label: "Or", horizontalPadding: 5)
                 
@@ -62,7 +65,7 @@ struct SignUp: View {
                 
                 HStack{
                     Text("Already have an account?")
-                    NavigationLink(destination: SignIn()){
+                    NavigationLink(destination: SignIn().navigationBarHidden(true)){
                         Text("Login")
                             .foregroundColor(Color("Purple1"))
                             .fontWeight(.bold)
@@ -75,7 +78,7 @@ struct SignUp: View {
             
             
         }
-        .padding(.horizontal, 25)
+        .padding(25)
     }
 }
 

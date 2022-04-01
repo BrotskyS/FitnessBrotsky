@@ -19,6 +19,9 @@
 		0D92E04727F61B360099ACBC /* CustomBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D92E04627F61B360099ACBC /* CustomBottom.swift */; };
 		0D92E04927F61EF10099ACBC /* LabelledDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D92E04827F61EF10099ACBC /* LabelledDivider.swift */; };
 		0D92E04B27F622610099ACBC /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D92E04A27F622610099ACBC /* SignIn.swift */; };
+		0D92E04D27F732870099ACBC /* CompleteProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D92E04C27F732870099ACBC /* CompleteProfile.swift */; };
+		0D92E04F27F7768D0099ACBC /* Goals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D92E04E27F7768D0099ACBC /* Goals.swift */; };
+		0D92E05127F77A570099ACBC /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D92E05027F77A570099ACBC /* Welcome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +38,9 @@
 		0D92E04627F61B360099ACBC /* CustomBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBottom.swift; sourceTree = "<group>"; };
 		0D92E04827F61EF10099ACBC /* LabelledDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelledDivider.swift; sourceTree = "<group>"; };
 		0D92E04A27F622610099ACBC /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		0D92E04C27F732870099ACBC /* CompleteProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteProfile.swift; sourceTree = "<group>"; };
+		0D92E04E27F7768D0099ACBC /* Goals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Goals.swift; sourceTree = "<group>"; };
+		0D92E05027F77A570099ACBC /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +142,9 @@
 			children = (
 				0D92E04427F618940099ACBC /* SignUp.swift */,
 				0D92E04A27F622610099ACBC /* SignIn.swift */,
+				0D92E04C27F732870099ACBC /* CompleteProfile.swift */,
+				0D92E04E27F7768D0099ACBC /* Goals.swift */,
+				0D92E05027F77A570099ACBC /* Welcome.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -218,12 +227,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D92E04527F618940099ACBC /* SignUp.swift in Sources */,
+				0D92E04D27F732870099ACBC /* CompleteProfile.swift in Sources */,
 				0D92E04927F61EF10099ACBC /* LabelledDivider.swift in Sources */,
 				0D92E03E27F6129D0099ACBC /* Onboaring.swift in Sources */,
 				0D92E03A27F4DB300099ACBC /* GetStarted.swift in Sources */,
 				0D92E04327F616260099ACBC /* CutomTextFiled.swift in Sources */,
+				0D92E05127F77A570099ACBC /* Welcome.swift in Sources */,
 				0D92E02927F4D9360099ACBC /* ContentView.swift in Sources */,
 				0D92E04727F61B360099ACBC /* CustomBottom.swift in Sources */,
+				0D92E04F27F7768D0099ACBC /* Goals.swift in Sources */,
 				0D92E04B27F622610099ACBC /* SignIn.swift in Sources */,
 				0D92E02727F4D9360099ACBC /* FitnessBrotskyApp.swift in Sources */,
 				0D92E03C27F4DC9C0099ACBC /* Gradients.swift in Sources */,
