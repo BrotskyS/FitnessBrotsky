@@ -11,7 +11,10 @@ import SwiftUI
 struct FitnessBrotskyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                ContentView()
+            }
+           
         }
     }
 }
